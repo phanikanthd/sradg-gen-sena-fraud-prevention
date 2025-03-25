@@ -20,7 +20,7 @@ Similarly, anomaly detection for fraud, errors, or deviations requires sophistic
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable)  
+📹 [Video Demo](https://github.com/ewfx/sradg-gen-sena-fraud-prevention/tree/7fbecf11dbc51709b447a4af9e59bf62dabf1805/artifacts/demo) (if applicable)  
 🖼️ Screenshots:
 
 ![Screenshot 1](link-to-image)
