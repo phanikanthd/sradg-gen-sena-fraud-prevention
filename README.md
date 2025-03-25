@@ -60,15 +60,18 @@ Generate suggestions for resolving discrepancies (e.g., "Consider verifying tran
 ## 🚧 Challenges We Faced
 How to present the agent using visualisations.
 
-## 🏃 How to Run
-Clone the repository
-
-Install dependencies
-   -pip install streamlit pandas numpy scikit-learn matplotlib seaborn
-
-Run the project
-We need do the tunneling to run the application using streamlit. Ex: wget -q -O - ipv4.icanhazip.com -->to get the password to access the application
-IP Address streamlit run app.py & npx localtunnel --port 8501 you can use the google colab to run the above steps to get our application. https://colab.research.google.com/
+# 🏃 How to Run
+1. Clone the repository  
+   
+2. Install dependencies  
+   pip install streamlit pandas numpy scikit-learn matplotlib seaborn
+   
+4. Run the project  
+   We need do the tunneling to run the application using streamlit.
+   Ex: wget -q -O - ipv4.icanhazip.com   -->to get the password to access the application IP Address
+     streamlit run app.py & npx localtunnel --port 8501
+     you can use the goold colab to run the above steps to get our application.
+     https://colab.research.google.com/
    ```
 
 # 🏗️ Tech Stack
