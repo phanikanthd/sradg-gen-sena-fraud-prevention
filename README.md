@@ -19,11 +19,10 @@ Traditional methods rely on rule-based algorithms or manual checks, which can be
 Similarly, anomaly detection for fraud, errors, or deviations requires sophisticated pattern recognition and adaptive learning.
 
 ## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](https://github.com/ewfx/sradg-gen-sena-fraud-prevention/tree/7fbecf11dbc51709b447a4af9e59bf62dabf1805/artifacts/demo) (if applicable)  
+🔗 📹 [Video Demo](https://github.com/ewfx/sradg-gen-sena-fraud-prevention/tree/7fbecf11dbc51709b447a4af9e59bf62dabf1805/artifacts/demo) (if applicable)  
 🖼️ Screenshots:
 
-![Screenshot 1](link-to-image)
+![Screenshot 1](https://github.com/ewfx/sradg-gen-sena-fraud-prevention/tree/7fbecf11dbc51709b447a4af9e59bf62dabf1805/artifacts/demo/Demo_Screenshots.docx)
 
 ## 💡 Inspiration
 a genuine inspiration from our hackathon 2025 initiative, to produce some good solutions uisng latest gen AI.
