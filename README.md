@@ -1,20 +1,22 @@
 # 🚀 Smarter Reconciliation and Anomaly Detection using Gen AI
 
 ## 📌 Table of Contents
-- [Introduction](#introduction)
-- [Demo](#demo)
-- [Inspiration](#inspiration)
-- [What It Does](#what-it-does)
-- [How We Built It](#how-we-built-it)
-- [Challenges We Faced](#challenges-we-faced)
-- [How to Run](#how-to-run)
-- [Tech Stack](#tech-stack)
-- [Team](#team)
+- [Introduction](#-introduction)
+- [Demo](#-demo)
+- [Inspiration](#-inspiration)
+- [What It Does](#-what-it-does)
+- [How We Built It](#-how-we-built-it)
+- [Challenges We Faced](#-challenges-we-faced)
+- [How to Run](#-how-to-run)
+- [Tech Stack](#-tech-stack)
+- [Team](#-team)
 
 ---
 
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+Reconciliation often involves comparing large datasets from different sources (e.g., financial transactions, inventory records) to identify mismatches or discrepancies. 
+Traditional methods rely on rule-based algorithms or manual checks, which can be time-consuming and error-prone. 
+Similarly, anomaly detection for fraud, errors, or deviations requires sophisticated pattern recognition and adaptive learning.
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
@@ -24,37 +26,56 @@ A brief overview of your project and its purpose. Mention which problem statemen
 ![Screenshot 1](link-to-image)
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+a genuine inspiration from our hackathon 2025 initiative, to produce some good solutions uisng latest gen AI.
 
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+-Automate the reconciliation process.
+
+-Enhance accuracy in identifying mismatches and anomalies.
+
+-Reduce manual intervention.
+
+-Provide actionable insights for faster resolution.
 
 ## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+Generative AI-Powered Framework 
+A. Data Preprocessing
+Data Ingestion: We have used existing historical sample csv files for testing.
+Data Cleaning & Normalization: Deploy AI models to handle missing values, standardize formats, and merge data from disparate systems.
+
+B. Anomaly Detection
+AI Models: Leverage pre-trained transformer models (Open AI - ChatGPT) to learn patterns in historical data.
+Multi-Channel Inputs: Incorporate features such as timestamps, geolocation, and user behavior to enrich the detection process.
+Real-Time Analysis: Use streaming services to flag anomalies as they occur.
+
+C. Smart Reconciliation
+Data Comparison: Use NLP-powered models to interpret and match textual or semi-structured data (e.g., invoice descriptions, payment memos).
+Pattern Recognition: Train the AI to detect recurring reconciliation patterns, such as partial matches or compensating errors.
+Confidence Scores: Provide probabilities for matching records to help prioritize manual reviews.
+
+D. Generative Insights
+Use Gen AI to generate summaries or explanations for flagged anomalies (e.g., "This transaction appears anomalous due to an outlier in payment frequency").
+Generate suggestions for resolving discrepancies (e.g., "Consider verifying transaction XYZ from source A").
 
 ## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+How to present the agent using visualisations.
 
 ## 🏃 How to Run
-1. Clone the repository  
-   ```sh
-   git clone https://github.com/your-repo.git
-   ```
-2. Install dependencies  
-   ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
-   ```
-3. Run the project  
-   ```sh
-   npm start  # or python app.py
+Clone the repository
+
+Install dependencies
+pip install streamlit pandas numpy scikit-learn matplotlib seaborn
+
+Run the project
+We need do the tunneling to run the application using streamlit. Ex: wget -q -O - ipv4.icanhazip.com -->to get the password to access the application IP Address streamlit run app.py & npx localtunnel --port 8501 you can use the goold colab to run the above steps to get our application. https://colab.research.google.com/
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+🔹 Frontend: Streamlit, seaborn and matplotlib for plotting and visualisation.
+🔹 Models: Pandas and numpy for data preprocessing, kmeans for clusting and isolation forest for anomolies detection.
 
 ## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+Phani Kanth Daliparthi
+Tarun Kumar Kollipara
+Sruthi Malladi
+Ammanna babu Kagitha
