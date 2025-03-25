@@ -68,10 +68,9 @@ How to present the agent using visualisations.
    
 4. Run the project  
    We need do the tunneling to run the application using streamlit.
-   Ex: wget -q -O - ipv4.icanhazip.com   -->to get the password to access the application IP Address
-     streamlit run app.py & npx localtunnel --port 8501
-     you can use the goold colab to run the above steps to get our application.
-     https://colab.research.google.com/
+   wget -q -O - ipv4.icanhazip.com   --> to get the password to access the application IP Address
+   streamlit run app.py & npx localtunnel --port 8501
+   you can use the google colab to run the above steps to get our application. https://colab.research.google.com/
    ```
 
 # 🏗️ Tech Stack
