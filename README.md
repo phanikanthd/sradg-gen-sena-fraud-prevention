@@ -71,12 +71,12 @@ We need do the tunneling to run the application using streamlit. Ex: wget -q -O 
 IP Address streamlit run app.py & npx localtunnel --port 8501 you can use the google colab to run the above steps to get our application. https://colab.research.google.com/
    ```
 
-## 🏗️ Tech Stack
-🔹 Frontend: Streamlit, seaborn and matplotlib for plotting and visualisation.
-🔹 Models: Pandas and numpy for data preprocessing, kmeans for clusting and isolation forest for anomolies detection.
+# 🏗️ Tech Stack
+- 🔹 Frontend: Streamlit, seaborn and matplotlib for plotting and visualisation.
+- 🔹 Models: Pandas and numpy for data preprocessing, kmeans for clusting and isolation forest for anomolies detection.
 
-## 👥 Team
-   Phani Kanth Daliparthi
-   Tarun Kumar Kollipara
-   Sruthi Malladi
-   Ammanna babu Kagitha
+# 👥 Team
+- Phani Kanth Daliparthi
+- Tarun Kumar Kollipara
+- Sruthi Malladi
+- Ammanna babu Kagitha
